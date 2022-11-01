@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Документ HTML5</title>
+    </head>
+    <body>
+        <div class = "First">It's a static div!</div>
+        <div class = "Second">It's a relative div!</div>
+        <div class = "Third">It's a relative div!</div>
+        <div class = "Forth">It's a relative div!<div class = "Fifth">It's an absolute div with relative parent!</div></div>
+        <div class = "Sixth">It's a fixed div!</div>
+    </body>
+</html>
+
+<style>
+*{
+    color: white;
+}
+.First{
+    position:static;
+    background-color:blueviolet;
+    width: 150px;
+    height: 100px;
+}
+.Second{
+    position:relative;
+    background-color: darkred;
+    width: 150px;
+    height: 100px;
+}
+.Third{
+    position:relative;
+    background-color: peru;
+    width: 150px;
+    height: 100px;
+    left: 40px;
+    bottom: 30px;
+}.Forth{
+    position:relative;
+    background-color: indianred;
+    width: 600px;
+    height: 400px;
+}.Fifth{
+    position:absolute;
+    background-color: indigo;
+    width: 300px;
+    height: 200px;
+    right: 0;
+    bottom: 70px;
+}
+.Sixth{
+    position:fixed;
+    background-color: forestgreen;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    bottom: 0px;
+    z-index: -1;
+}        
+</style>

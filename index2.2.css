@@ -1,0 +1,32 @@
+ *{ margin: 0;
+    padding: 0;
+    border: 0;
+ }
+			
+header{ 
+    background-color:#EAEAEA;
+	height:60px;
+	
+}
+
+#leftSidebar{
+    background-color: #C8FC98;
+    float: left;
+    width: 25%;
+	 padding: 10px;
+	 box-sizing: border-box;
+}
+
+#rightSidebar{
+    background-color: #FDE95E;
+    float: right;
+    width: 200px;
+	 padding: 10px;
+	box-sizing: border-box;
+}
+
+#main{
+    margin-left: 25%;
+	margin-right: 200px;
+	padding: 10px;
+} 
