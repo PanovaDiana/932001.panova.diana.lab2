@@ -1,0 +1,17 @@
+
+    *{
+        color: white;
+    }
+    .content{
+        width:600px;
+        margin: auto;
+    }
+    .greenBlock{
+                background-color: green;
+                margin: 25px 50px;
+            }
+
+    .blueBlock{
+                background-color: blue;
+                padding: 50px;
+            }  

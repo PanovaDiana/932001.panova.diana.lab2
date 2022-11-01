@@ -1,0 +1,29 @@
+.wrapper{
+    background-color: aqua;
+    border: solid 1px green;
+}
+.nav{
+    background-color: bisque;
+    width: 25%;
+    float: left;
+}
+.content{
+    background-color: darkgray;
+    margin-left: 25%;
+}
+
+
+img {
+    float: right;
+    margin: 0px 0px 10px 10px;
+    width: 45%;
+    }
+
+.help{
+    clear: right;
+}
+
+*{
+    font-size: small;
+
+}

@@ -1,0 +1,15 @@
+*{
+}
+.content{
+    width:500px;
+    margin: auto;
+}
+.firstBlock{
+    margin: 25px 0px;
+        }
+
+.secondBlock{
+            padding: 50px;
+            border: 10px solid blue;
+        }  
+    

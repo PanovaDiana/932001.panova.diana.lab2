@@ -1,0 +1,11 @@
+.First{	
+	float: left;
+    background-color:aquamarine;
+    width: 200px;
+    height: 100px;
+    margin: 15px;
+}
+.Second{
+    background-color: bisque;
+    clear: left; 
+}

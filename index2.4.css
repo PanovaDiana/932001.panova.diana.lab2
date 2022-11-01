@@ -1,4 +1,4 @@
- *{ margin: 0;
+ *{ margin: 5;
     padding: 0;
     border: 0;
 	color: white
@@ -9,6 +9,9 @@
 	 width: 600px; 
 	 margin-left: auto;
      margin-right: auto;
-	 overflow: visibleж
-
 } 
+@media (max-width: 650px) {
+    #main{
+        width: 450px;
+    }
+}

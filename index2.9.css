@@ -1,0 +1,16 @@
+
+    *{
+        color: white;
+    }
+    .content{
+        width:600px;
+        margin: auto;
+    }
+
+    .blueBlock{
+        background-color: blue;
+    } 
+    img {
+    float: right;
+    margin: 0px 0px 10px 10px;
+    }

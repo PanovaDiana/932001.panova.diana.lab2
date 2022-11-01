@@ -1,0 +1,27 @@
+.wrapper{
+    background-color: aqua;
+    border: solid 1px green;
+}
+.nav{
+    background-color: bisque;
+    width: 25%;
+    float: left;
+}
+.content{
+    background-color: darkgray;
+    margin: 0px 5px 0px 25.3%;
+}
+
+*{
+    font-size: small;
+}
+
+@media (max-width: 700px) {
+
+    .content{
+        clear: left;
+        margin: 0px 25% 0px 0px;
+    }
+    
+
+}
