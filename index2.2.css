@@ -25,8 +25,26 @@ header{
 	box-sizing: border-box;
 }
 
-#main{
+.content{
     margin-left: 25%;
 	margin-right: 200px;
 	padding: 10px;
 } 
+
+main{
+    display: flex;
+} 
+
+footer {
+    color: yellow;
+    background-color: black;
+    height: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+.red {
+    color: red;
+}

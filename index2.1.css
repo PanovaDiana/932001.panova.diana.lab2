@@ -1,9 +1,10 @@
- *{ margin: 0;
+* {
+     margin: 0;
     padding: 0;
     border: 0;
- }	
+}	
  
-header{ 
+header { 
     background-color:#EAEAEA;
 	height:60px; 
 
@@ -13,22 +14,29 @@ header{
 footer {
     color: yellow;
     background-color: black;
-    height: 40px;
+    height: 30px;
 }
 
+.center {
+    text-align: center;
+}
 
+.red {
+    color: red;
+}
 
-#leftSidebar{
+#leftSidebar {
     background-color: #C8FC98;
-    margin-right: 90%;
-    width: 14%;
+    float: left;
+    width: 200px;
 	padding: 10px;
 }
 
-#main{
-    float: right;
-    width: 85%;
+.content {
+    margin-left: 210px;
 	padding: 10px;
+}
+
+main {
+    display: flex;
 } 
-
-
